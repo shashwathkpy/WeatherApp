@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Hepta+Slab:wght@600&display=swap" rel="stylesheet');
+html
+{
+
+    font-family: 'Abel', sans-serif;
+    color: white;
+    /* font-family: 'Hepta Slab', serif; */
+}
+
+body 
+{
+    /* background-image: url(/images/iceberg.png); */
+    background-image: url(/images/colors.jpg);
+}
+
+#header
+{
+    padding: 5%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#inputDiv 
+{
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+}
+
+#searchDiv
+{
+    display: flex;
+}
+
+#searchInput
+{
+    border-radius: 5px;
+    height: 25px;
+}
+
+#display
+{
+    padding: 5%;
+    display: flex;
+    gap: 5%;
+}
+
+#condition
+{
+    font-size: 50px;
+    display: flex;
+    gap: 10px;
+}
+
+#location, #loading
+{
+    font-size: 75px;
+    font-weight: bolder;
+}
+
+#temperature
+{
+    font-size: 100px;
+    width: 80%;
+    cursor: pointer;
+}
+
+#imageDisplay
+{
+    
+}
+
+#image
+{
+    border: solid black;
+    border-width: 10px;
+    border-radius: 25px;
+}
