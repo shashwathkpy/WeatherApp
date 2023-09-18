@@ -36,6 +36,11 @@ body
     height: 25px;
 }
 
+#searchBtn
+{
+    cursor: pointer;
+}
+
 #display
 {
     padding: 5%;

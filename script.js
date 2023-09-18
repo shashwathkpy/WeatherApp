@@ -82,7 +82,7 @@ async function getWeather(place)
 
 const condition = document.querySelector('#condition');
 const conditionIcon = document.createElement('img');
-condition.appendChild(conditionIcon);
+
 const locationName = document.querySelector('#location');
 const temperature = document.querySelector('#temperature');
 let metric = true;
@@ -98,7 +98,7 @@ function updateDisplay(weatherData)
 {
     condition.textContent = weatherData.current.condition.text;
     conditionIcon.src = weatherData.current.condition.icon;
-
+    condition.appendChild(conditionIcon);
     const name = weatherData.location.name;
     const country = weatherData.location.country;
     locationName.textContent = `${name}, ${country}`;
